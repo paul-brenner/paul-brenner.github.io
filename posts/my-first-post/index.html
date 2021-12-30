@@ -62,12 +62,6 @@ Paul's Blog
 <li class=navigation-item>
 <a class=navigation-link href=/contact/>Contact me</a>
 </li>
-<li class="navigation-item menu-separator">
-<span>|</span>
-</li>
-<li class=navigation-item>
-<a href=https://paul-brenner.github.io/pt-br/>🇧🇷</a>
-</li>
 </ul>
 </section>
 </nav>
@@ -119,44 +113,67 @@ What I’m actually looking for in a Data Scientist - WIP
 <li>Why are you using the tools you are using (scala? Spark? A nifty ML package? etc)?</li>
 <li>Why are you paid so much?
 <ol>
-<li>In summary, there are multiple skills here: Understand the value of your work, have some awareness of how the company works, understand the value of skills you have or don’t have, be able to persuade the people up the chain when you have a strong case, and finally bonus points if you are starting to learn how to manage your own career. But also there is a whole tangent here if you want to go down that</li>
+<li>In summary, there are multiple skills here: Understand the value of your work, have some awareness of how the company works, understand the value of skills you have or don’t have, be able to persuade the people up the chain when you have a strong case, and finally bonus points if you are starting to learn how to manage your own career. But also there is a whole tangent here if you want to go down that <a href=#data-scientist-pay-tangent>rabbit hole</a>.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>“Simpler is better” Believe this, don’t just pretend to agree with it, but really deeply believe it even when no one else is looking
+<ol>
+<li>Have experience reading code that was too smart for its own good, and appreciate why dumb, readable, and easily changed code is better than flashy code. Ideally have written that code yourself, then come back to it later and have been like “what the… what is this, why?”</li>
+<li>See a blog post or talk or random anecdote or company description where ML was used and think “this is not a good use case for ML, they should have done something simpler”</li>
+<li>Accept that all that time you spent learning the theory of model select and how SVM works was probably educational, but won’t actually be relevant: if you need to use ML you should probably start by tossing automl or an xgboost varietal at the problem, checking the results, then only digging in if the results/performance don’t meet requirements</li>
+</ol>
+</li>
+<li>Leave everything better than you found it
+<ol>
+<li>When you learn something new share it</li>
+<li>When you get results you should…
+<ol>
+<li>Document them for a technical audience (put them on a ticket perhaps?)</li>
+<li>Reflect on “who needs to know about this”
+<ol>
+<li>If the answer is no one then, what the, why did you do this project?</li>
+<li>If the answer is “just the people on the ticket” then stop and think “really? There is no one else who I can show these nice results off to?”</li>
+<li>If there is someone else, identify the best way to share with that audience. Is it a slack message? Email? A meeting? A few slides?</li>
+<li>Ok now share appropriately</li>
 </ol>
 </li>
 </ol>
 </li>
 </ol>
-<p><a href="#heading=h.oc1gupq12efw">rabbit hole</a>.
-2. “Simpler is better” Believe this, don’t just pretend to agree with it, but really deeply believe it even when no one else is looking
-4. Have experience reading code that was too smart for its own good, and appreciate why dumb, readable, and easily changed code is better than flashy code. Ideally have written that code yourself, then come back to it later and have been like “what the… what is this, why?”
-5. See a blog post or talk or random anecdote or company description where ML was used and think “this is not a good use case for ML, they should have done something simpler”
-6. Accept that all that time you spent learning the theory of model select and how SVM works was probably educational, but won’t actually be relevant: if you need to use ML you should probably start by tossing automl or an xgboost varietal at the problem, checking the results, then only digging in if the results/performance don’t meet requirements
-3. Leave everything better than you found it
-7. When you learn something new share it
-8. When you get results you should…
-2. Document them for a technical audience (put them on a ticket perhaps?)
-3. Reflect on “who needs to know about this”
-1. If the answer is no one then, what the, why did you do this project?
-2. If the answer is “just the people on the ticket” then stop and think “really? There is no one else who I can show these nice results off to?”
-3. If there is someone else, identify the best way to share with that audience. Is it a slack message? Email? A meeting? A few slides?
-4. Ok now share appropriately
-4. Every problem you find is your problem
-9. Job #1 is to do good work on whatever project you are supposed to be working on
-10. Job #2 is to start looking for areas of opportunity. That means if you stumble across a problem with something, your response should be “nice! I found something that might need fixing and maybe that fixing could make the company better”.
-5. Make mistakes and really believe that it&rsquo;s fine to make mistakes
-11. Your job is to move quickly, write code that may only run once, and apply the 80/20 rule. Embrace that you aren’t a software engineer who needs to write rock solid code that needs to meet an uptime requirement with five nines. YOU WILL MAKE MISTAKES. And that is fine.
-12. Everyone else on your team makes mistakes too. Do you believe that? Please do.
-13. The real job is NOT to NOT make mistakes. It is to catch most of your mistakes before someone else does.
-14. The real job is also not to catch all of your mistakes before someone else does… nope, other people will catch your mistakes sometimes and you will feel embarrassed and like the world must be about to end. When you make a mistake you need to own it, realize that it’s fine to make mistakes, and help clean up the mess.
-15. Failure modes here would be
-4. Catch a mistake after it is out in the world and try to cover it up
-5. Get defensive if someone else catches your mistake
-6. Get distraught and beat yourself up if you make a mistake and it has impact
-7. Fail to appreciate that mistakes are a job expectation
-8. Go overboard and embrace this philosophy too much and just not even try to avoid mistakes… oops, that went too far, don’t do that either, find glorious balance
-16. All that said, the real solution to mistakes is to build systems/procedures that aren’t vulnerable to human error when possible. If a mistake causes a major business problem, then that means it is time to find a way to make it so that such a mistake can’t cause as much damage in the future
-6. Take care of yourself
-17. Start building some skills to defend against burn out
-18. Start helping your manager help you. Speak up when you need something</p>
+</li>
+<li>Every problem you find is your problem
+<ol>
+<li>Job #1 is to do good work on whatever project you are supposed to be working on</li>
+<li>Job #2 is to start looking for areas of opportunity. That means if you stumble across a problem with something, your response should be “nice! I found something that might need fixing and maybe that fixing could make the company better”.</li>
+</ol>
+</li>
+<li>Make mistakes and really believe that it&rsquo;s fine to make mistakes
+<ol>
+<li>Your job is to move quickly, write code that may only run once, and apply the 80/20 rule. Embrace that you aren’t a software engineer who needs to write rock solid code that needs to meet an uptime requirement with five nines. YOU WILL MAKE MISTAKES. And that is fine.</li>
+<li>Everyone else on your team makes mistakes too. Do you believe that? Please do.</li>
+<li>The real job is NOT to NOT make mistakes. It is to catch most of your mistakes before someone else does.</li>
+<li>The real job is also not to catch all of your mistakes before someone else does… nope, other people will catch your mistakes sometimes and you will feel embarrassed and like the world must be about to end. When you make a mistake you need to own it, realize that it’s fine to make mistakes, and help clean up the mess.</li>
+<li>Failure modes here would be
+<ol>
+<li>Catch a mistake after it is out in the world and try to cover it up</li>
+<li>Get defensive if someone else catches your mistake</li>
+<li>Get distraught and beat yourself up if you make a mistake and it has impact</li>
+<li>Fail to appreciate that mistakes are a job expectation</li>
+<li>Go overboard and embrace this philosophy too much and just not even try to avoid mistakes… oops, that went too far, don’t do that either, find glorious balance</li>
+</ol>
+</li>
+<li>All that said, the real solution to mistakes is to build systems/procedures that aren’t vulnerable to human error when possible. If a mistake causes a major business problem, then that means it is time to find a way to make it so that such a mistake can’t cause as much damage in the future</li>
+</ol>
+</li>
+<li>Take care of yourself
+<ol>
+<li>Start building some skills to defend against burn out</li>
+<li>Start helping your manager help you. Speak up when you need something</li>
+</ol>
+</li>
+</ol>
 <h3 id=normal-expectations-for-data-scientists---wip>
 Normal Expectations For Data Scientists - WIP
 <a class=heading-link href=#normal-expectations-for-data-scientists---wip>
@@ -176,17 +193,23 @@ Normal Expectations For Data Scientists - WIP
 </ol>
 </li>
 <li>Learning independence - A DS should be able to…
-7. Independently survey existing available tools (e.g. packages, language, algorithm, statistical method, ML, etc) and propose an approach to quickly evaluate and find the best option for a project
-8. Rapidly learn the basics of any new tool enough for a quick POC
-9. Get to a moderate depth of understanding of any new tool or language when necessary across the span of a longer/more in depth project (1-3 months)
-10. Summarize and share findings about
-11. Understand why this section does not include a list of tools/algorithms/languages/textbooks, but instead talks about how quickly a DS can learn those things</li>
+<ol>
+<li>Independently survey existing available tools (e.g. packages, language, algorithm, statistical method, ML, etc) and propose an approach to quickly evaluate and find the best option for a project</li>
+<li>Rapidly learn the basics of any new tool enough for a quick POC</li>
+<li>Get to a moderate depth of understanding of any new tool or language when necessary across the span of a longer/more in depth project (1-3 months)</li>
+<li>Summarize and share findings about</li>
+<li>Understand why this section does not include a list of tools/algorithms/languages/textbooks, but instead talks about how quickly a DS can learn those things</li>
+</ol>
+</li>
 <li>Communication - A DS should…
-12. Start to have an opinion on topics specific to recent projects and share those opinions within the team
-13. Confidently respond to questions about his/her work from anyone in the company
-14. Proactively share findings with the team and stakeholders
-15. Start discussions in team meetings by raising interesting findings or topics
-16. Talk to stakeholders, know when to get their feedback, know when it is important to share your findings, and know how to share them effectively</li>
+<ol>
+<li>Start to have an opinion on topics specific to recent projects and share those opinions within the team</li>
+<li>Confidently respond to questions about his/her work from anyone in the company</li>
+<li>Proactively share findings with the team and stakeholders</li>
+<li>Start discussions in team meetings by raising interesting findings or topics</li>
+<li>Talk to stakeholders, know when to get their feedback, know when it is important to share your findings, and know how to share them effectively</li>
+</ol>
+</li>
 </ol>
 <h3 id=specific-checklist-to-help-get-that-data-scientist-titlejob>
 Specific “Checklist” To Help Get That Data Scientist Title/Job
@@ -198,7 +221,7 @@ Specific “Checklist” To Help Get That Data Scientist Title/Job
 <p>Important Disclaimer:</p>
 <p>Here is basically a checklist for someone who does not currently have the title of DS that wants to get that title. This sort of thing is dangerous. It isn’t a promise that if you do all of these things you will get a promotion/job. It also isn’t a blocker. If you haven’t checked off every “requirement” but are just crushing it on a few of the others, that could be plenty. In fact, being a data scientist requires enough business acumen that I’m just going to put that on the list “understand that you can check all these boxes and still not get the title/job and really get why that is… but also that the reverse is true”</p>
 <ol>
-<li>Technical Problem Solving: Provide “proof” that you have problem solving experience and that your abilities are worth proper evaluation. Some examples that could count as proof, whether fair or not, are below. More is always better, but the requirement here is at least a-i, a-ii, or b-ii.
+<li>Technical Problem Solving: Provide “proof” that you have problem solving experience and that your abilities are worth proper evaluation. Some examples that could count as proof, whether fair or not, are below. More is always better, but the requirement here is at least one of the options in this section.
 <ol>
 <li>In School:
 <ol>
@@ -207,43 +230,70 @@ Specific “Checklist” To Help Get That Data Scientist Title/Job
 </ol>
 </li>
 <li>Technical project at work/home:
-3. It doesn’t actually matter if you just create your own home project and see it through to the end (impressive because it also shows internal motivation) or it is a work project assigned to you (impressive because of working inside the complexity of a company).
-4. Two (or more) projects that may have come with a high level problem statement / requirements but required your own independent work/thought on the following 4 steps in the problem solving process:
-1. Problem Identification: Figure out the actual sub problems that needed to be solved to complete the project
-2. Defining unknowns: Identify what questions need to be answered/data collected/experiments run to get the data that will inform which solutions should be attempted
-3. Solution Brainstorming: Propose multiple solutions to the problem, prioritize which ones to try first
-4. Solution Evaluation: Identify the best solution based on an appropriate set of criteria</li>
+<ol>
+<li>It doesn’t actually matter if you just create your own home project and see it through to the end (impressive because it also shows internal motivation) or it is a work project assigned to you (impressive because of working inside the complexity of a company).</li>
+<li>Two (or more) projects that may have come with a high level problem statement / requirements but required your own independent work/thought on the following 4 steps in the problem solving process:
+<ol>
+<li>Problem Identification: Figure out the actual sub problems that needed to be solved to complete the project</li>
+<li>Defining unknowns: Identify what questions need to be answered/data collected/experiments run to get the data that will inform which solutions should be attempted</li>
+<li>Solution Brainstorming: Propose multiple solutions to the problem, prioritize which ones to try first</li>
+<li>Solution Evaluation: Identify the best solution based on an appropriate set of criteria</li>
+</ol>
+</li>
+</ol>
+</li>
 </ol>
 </li>
 <li>Non-DS problem solving anywhere in life:
-3. Problem solving is not just looking at data and writing code. Have an example where you can talk through the problem solving process in problems you encountered with…
-5. People
-6. Non-people (physical objects, pets, I don’t know, get creative)
-7. Logistics (like planning a trip, being lost and getting unlost, or making some process better)
-4. Ideally, the less fancy the better here. Your goal is to make it clear that problem solving is so deep in your blood that you can’t help but do it all the time and you can articulate how you do it.</li>
+<ol>
+<li>Problem solving is not just looking at data and writing code. Have an example where you can talk through the problem solving process in problems you encountered with…
+<ol>
+<li>People</li>
+<li>Non-people (physical objects, pets, I don’t know, get creative)</li>
+<li>Logistics (like planning a trip, being lost and getting unlost, or making some process better)</li>
+</ol>
+</li>
+<li>Ideally, the less fancy the better here. Your goal is to make it clear that problem solving is so deep in your blood that you can’t help but do it all the time and you can articulate how you do it.</li>
+</ol>
+</li>
 <li>Interpreting Results: You should have a lot of experience under your belt interpreting results, the numbers here are rough guidelines (completely made up?), but if you hit these guidelines you should naturally be able to convince someone that you have great experience interpreting results.
-5. 50+ times that you have looked at data (counts? A chart? Rows in a table?) and made a decision. No you shouldn’t remember all of them because 50 is a lot. But basically this should be something you have done a lot. 50 is a completely made up number here to represent “a lot”. This should be really easy to hit
-6. 3 examples of the above that you remember because there was some really cool conclusion/decision/next step that came out of looking at data. Be able to tell the story here. This should be quite easy to hit.
-7. 1 example of the above where you shared your data with someone else “smart” (Your team? A well informed friend? Your boss if you are lucky and have a smart boss? What I mean is not just your dog) and YOU had the great aha discovery moment to figure something out from the data before they did. PLUS you explained it to them and they said “good job, you must be some sort of data scientist” (they didn’t actually need to say this, you just need to have explained it and they understood and agreed). This may be a hard one for so many reasons: maybe you are too humble to take credit, maybe an outside opinion/fresh set of eyes is just what you needed the times you shared… or MAYBE you don’t share your results enough which is its own problem. Pretty cool how this requirement forces you to share your results a lot though.</li>
+<ol>
+<li>50+ times that you have looked at data (counts? A chart? Rows in a table?) and made a decision. No you shouldn’t remember all of them because 50 is a lot. But basically this should be something you have done a lot. 50 is a completely made up number here to represent “a lot”. This should be really easy to hit</li>
+<li>3 examples of the above that you remember because there was some really cool conclusion/decision/next step that came out of looking at data. Be able to tell the story here. This should be quite easy to hit.</li>
+<li>1 example of the above where you shared your data with someone else “smart” (Your team? A well informed friend? Your boss if you are lucky and have a smart boss? What I mean is not just your dog) and YOU had the great aha discovery moment to figure something out from the data before they did. PLUS you explained it to them and they said “good job, you must be some sort of data scientist” (they didn’t actually need to say this, you just need to have explained it and they understood and agreed). This may be a hard one for so many reasons: maybe you are too humble to take credit, maybe an outside opinion/fresh set of eyes is just what you needed the times you shared… or MAYBE you don’t share your results enough which is its own problem. Pretty cool how this requirement forces you to share your results a lot though.</li>
+</ol>
+</li>
 <li>Coding ability: Provide proof that you have a good enough handle on the basics of coding that you can solve problems using your coding language of choice.
-8. Finish some sort of coding class/bootcamp/book/web tutorial/whatever that covers coding fundamentals. That should mean familiarity with everything on <a href=https://en.wikiversity.org/wiki/Programming_Fundamentals>this page</a>. I don’t care how you do it. But if you show up being a wiz with dataframes and sklearn but don’t know what a for loop is that would be annoying (but not necessarily a deal breaker!)
-9. Solve 10 “easy” coding problems (like the easiest problems on HackerRank) using Variables, Functions, Conditions, Loops, Arrays, and Strings. OR if you are pretty confident you can do this and don’t want to spend the time practicing just be able to solve such a problem if someone were to test you for some reason.
-10. Two (or more) projects that require the use of dataframes and any imported package. This one should honestly sound like a preposterously low bar.</li>
+<ol>
+<li>Finish some sort of coding class/bootcamp/book/web tutorial/whatever that covers coding fundamentals. That should mean familiarity with everything on <a href=https://en.wikiversity.org/wiki/Programming_Fundamentals>this page</a>. I don’t care how you do it. But if you show up being a wiz with dataframes and sklearn but don’t know what a for loop is that would be annoying (but not necessarily a deal breaker!)</li>
+<li>Solve 10 “easy” coding problems (like the easiest problems on HackerRank) using Variables, Functions, Conditions, Loops, Arrays, and Strings. OR if you are pretty confident you can do this and don’t want to spend the time practicing just be able to solve such a problem if someone were to test you for some reason.</li>
+<li>Two (or more) projects that require the use of dataframes and any imported package. This one should honestly sound like a preposterously low bar.</li>
+</ol>
+</li>
 <li>Learning ability: Provide proof that you can learn basically anything and quickly
-11. 2 examples of learning to use a new package/tool for a project when it was appropriate for the problem at hand
-12. 1 example of learning to use a new algorithm/statistical concept/methodology/etc for a project
-13. 1 example of something you learned recently related to data science that you can explain and convince me is actually pretty cool/useful
-14. 1 example of something you have learned/know that is really just too complicated to explain in depth in 30 minutes
-15. Nice to have: 1 example of learning at least the basics of a programming language beyond your first. You may be surprised how fast you can get the hang of javascript or R or whatever basics (1 day?) and then you can always cite that as an example.</li>
+<ol>
+<li>2 examples of learning to use a new package/tool for a project when it was appropriate for the problem at hand</li>
+<li>1 example of learning to use a new algorithm/statistical concept/methodology/etc for a project</li>
+<li>1 example of something you learned recently related to data science that you can explain and convince me is actually pretty cool/useful</li>
+<li>1 example of something you have learned/know that is really just too complicated to explain in depth in 30 minutes</li>
+<li>Nice to have: 1 example of learning at least the basics of a programming language beyond your first. You may be surprised how fast you can get the hang of javascript or R or whatever basics (1 day?) and then you can always cite that as an example.</li>
+</ol>
+</li>
 <li>Communication: Provide proof that you value communication and can do it. Note that the ordering of these and the number of examples required implies something about how each one is valued. By this point in life you certainly should have a good example of presenting your results in a structured format, but admitting you don’t know the answer to a question during that presentation may still be scary.
-16. 3 examples answering a question from someone you respect with “I don’t know”
-17. 3 examples telling someone you respect that you don’t know/don’t understand something even though they didn’t ask you a question and you could have just pretended you understood.
-18. 2 examples learning about a problem someone else has and helping them with it
-19. 2 examples sharing a problem you are in the middle of and having someone else help you with it
-20. 1 example of a really great short email you have written that really got the point across in a concise way
-21. Sharing something you learned/results you collected/a thing you created/ a project you finished…
-8. 1 good examples successfully sharing in <strong>an ad hoc format</strong> (just talking and waving your hands around, maybe pulling up a chart on the fly, etc)
-9. 1 good example successfully sharing in <strong>a structured format</strong> (slides? A document? etc)</li>
+<ol>
+<li>3 examples answering a question from someone you respect with “I don’t know”</li>
+<li>3 examples telling someone you respect that you don’t know/don’t understand something even though they didn’t ask you a question and you could have just pretended you understood.</li>
+<li>2 examples learning about a problem someone else has and helping them with it</li>
+<li>2 examples sharing a problem you are in the middle of and having someone else help you with it</li>
+<li>1 example of a really great short email you have written that really got the point across in a concise way</li>
+<li>Sharing something you learned/results you collected/a thing you created/ a project you finished…
+<ol>
+<li>1 good examples successfully sharing in <strong>an ad hoc format</strong> (just talking and waving your hands around, maybe pulling up a chart on the fly, etc)</li>
+<li>1 good example successfully sharing in <strong>a structured format</strong> (slides? A document? etc)</li>
+</ol>
+</li>
+</ol>
+</li>
 <li>Understand that you can check all these boxes and still not get the title/job and really get why that is… but also that the reverse is true</li>
 </ol>
 <h2 id=data-scientist-pay-tangent>
@@ -252,7 +302,7 @@ Data Scientist Pay Tangent
 <i class="fa fa-link" aria-hidden=true></i>
 </a>
 </h2>
-<p>_This is just a tangent. Do what you will with it. _</p>
+<p><em>This is just a tangent. Do what you will with it.</em></p>
 <ol>
 <li>Don’t think you aren’t paid that much? You may have already failed this one. Think about it again from the perspective of the CFO. Or imagine you had founded the company and were responsible for making sure everyone gets a paycheck every pay cycle.</li>
 <li>Thought about that and still think you are underpaid? Ok, fine, that was cost-based pricing and sure that may not be appropriate here. How about value-based pricing: Can you put a dollar amount on the value of your work? An exact number is probably pretty hard if you don’t bill hourly, but do you have any idea how your work for the past year translates to value for the company?</li>
@@ -278,5 +328,7 @@ Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luiz
 </footer>
 </main>
 <script src=/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1DCQX6FHEX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-1DCQX6FHEX')</script>
 </body>
 </html>

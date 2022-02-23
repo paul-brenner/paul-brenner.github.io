@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paul Brenner on Paul's Little Website</title><link>https://paul-brenner.github.io/authors/paul-brenner/</link><description>Recent content in Paul Brenner on Paul's Little Website</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://paul-brenner.github.io/authors/paul-brenner/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://paul-brenner.github.io/about/</link><pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate><guid>https://paul-brenner.github.io/about/</guid><description>Hi, I&amp;rsquo;m Paul Well you have found my little website for&amp;hellip; reasons? Hopefully good reasons and not just like identity theft or doxing reasons. The point of this site is so that I can link to things that I have written and so that anyone who becomes aware that I exist and wants to know &amp;ldquo;what is the deal with this Paul that I&amp;rsquo;ve just come across&amp;rdquo; can reasonably answer that question.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul Brenner on Paul&#39;s Little Website</title>
+    <link>https://paul-brenner.github.io/authors/paul-brenner/</link>
+    <description>Recent content in Paul Brenner on Paul&#39;s Little Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://paul-brenner.github.io/authors/paul-brenner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://paul-brenner.github.io/about/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://paul-brenner.github.io/about/</guid>
+      <description>Hi, I&amp;rsquo;m Paul    Well you have found my little website for&amp;hellip; reasons? Hopefully good reasons and not just like identity theft or doxing reasons. The point of this site is so that I can link to things that I have written and so that anyone who becomes aware that I exist and wants to know &amp;ldquo;what is the deal with this Paul that I&amp;rsquo;ve just come across&amp;rdquo; can reasonably answer that question.</description>
+    </item>
+    
+  </channel>
+</rss>

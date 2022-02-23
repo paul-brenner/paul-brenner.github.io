@@ -1,12 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paul's Little Website</title><link>https://paul-brenner.github.io/</link><description>Recent content on Paul's Little Website</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://paul-brenner.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>A better process for writing a resume</title><link>https://paul-brenner.github.io/posts/resume/</link><pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate><guid>https://paul-brenner.github.io/posts/resume/</guid><description>Tl;dr This is the best way to write a resume1. You should give it a try. Unlike the usual method2, you will spend your time more efficiently, and come away with valuable self-reflection and opportunities for growth. Each section calls out action items for what you actually need to do.
-Summary Start by brainstorming what your best characteristics are and what you want people to know about you</description></item><item><title>Just write down a list of all your skills OR One neat trick for starting your resume/ skills assessment that fits in the title of this post</title><link>https://paul-brenner.github.io/posts/write_down_your_skills-resume_preview2/</link><pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate><guid>https://paul-brenner.github.io/posts/write_down_your_skills-resume_preview2/</guid><description>Why are you reading this Already know the answer? Cool, skip this section.
-Otherwise, for some background, I&amp;rsquo;ve been helping people with career growth, goals, and resume writing for a while. Everyone probably does some of that, but I went one step farther and wrote down my method for creating an amazing resume. Wow. So now instead of being in a cohort of &amp;ldquo;basically everyone&amp;rdquo; now I&amp;rsquo;ve entered the prestigious group of probably 100k other people who had the same idea on the internet.</description></item><item><title>Everything with a purpose - Resume Edition</title><link>https://paul-brenner.github.io/posts/everything-with-a-purpose/</link><pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate><guid>https://paul-brenner.github.io/posts/everything-with-a-purpose/</guid><description>What is this thing you are reading (background) I&amp;rsquo;ve reviewed somewhere between 10k-100k resumes in my life mostly in science, tech, and management consulting. More than some, less than others, but certainly enough to have some opinions.
-Though I&amp;rsquo;ve helped a lot of people write resumes for their usual job acquiring purposes, I&amp;rsquo;ve also found that many steps of the resume writing process are a great exercise even for people not looking for a job.</description></item><item><title>I think about Passive Safety all the time, so I want you to think about it for a few minutes by reading something I sorta remember about nuclear power plants</title><link>https://paul-brenner.github.io/posts/passive_safety/</link><pubDate>Sat, 12 Feb 2022 14:21:49 +0800</pubDate><guid>https://paul-brenner.github.io/posts/passive_safety/</guid><description>Passive Safety Hey, this is going to be fun, but you are probably wondering how much you can skip. Once you lose interest, jump down to the next section and you will be fine.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul&#39;s Little Website</title>
+    <link>https://paul-brenner.github.io/</link>
+    <description>Recent content on Paul&#39;s Little Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://paul-brenner.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A better process for writing a resume</title>
+      <link>https://paul-brenner.github.io/posts/resume/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/resume/</guid>
+      <description>Tl;dr    This is the best way to write a resume1. You should give it a try. Unlike the usual method2, you will spend your time more efficiently, and come away with valuable self-reflection and opportunities for growth. Each section calls out action items for what you actually need to do.
+Summary      Start by brainstorming what your best characteristics are and what you want people to know about you</description>
+    </item>
+    
+    <item>
+      <title>Just write down a list of all your skills OR One neat trick for starting your resume/ skills assessment that fits in the title of this post</title>
+      <link>https://paul-brenner.github.io/posts/write_down_your_skills-resume_preview2/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/write_down_your_skills-resume_preview2/</guid>
+      <description>Why are you reading this    Already know the answer? Cool, skip this section.
+Otherwise, for some background, I&amp;rsquo;ve been helping people with career growth, goals, and resume writing for a while. Everyone probably does some of that, but I went one step farther and wrote down my method for creating an amazing resume. Wow. So now instead of being in a cohort of &amp;ldquo;basically everyone&amp;rdquo; now I&amp;rsquo;ve entered the prestigious group of probably 100k other people who had the same idea on the internet.</description>
+    </item>
+    
+    <item>
+      <title>Everything with a purpose - Resume Edition</title>
+      <link>https://paul-brenner.github.io/posts/everything-with-a-purpose/</link>
+      <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/everything-with-a-purpose/</guid>
+      <description>What is this thing you are reading (background)    I&amp;rsquo;ve reviewed somewhere between 10k-100k resumes in my life mostly in science, tech, and management consulting. More than some, less than others, but certainly enough to have some opinions.
+Though I&amp;rsquo;ve helped a lot of people write resumes for their usual job acquiring purposes, I&amp;rsquo;ve also found that many steps of the resume writing process are a great exercise even for people not looking for a job.</description>
+    </item>
+    
+    <item>
+      <title>I think about Passive Safety all the time, so I want you to think about it for a few minutes by reading something I sorta remember about nuclear power plants</title>
+      <link>https://paul-brenner.github.io/posts/passive_safety/</link>
+      <pubDate>Sat, 12 Feb 2022 14:21:49 +0800</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/passive_safety/</guid>
+      <description>Passive Safety    Hey, this is going to be fun, but you are probably wondering how much you can skip. Once you lose interest, jump down to the next section and you will be fine.
 CORRECTION: I have received feedback that this is not fun at all. There is no narrative or amusement. It is more of an exposition about passive safety. You have been warned.
-I’m going to share with you a fun1 anecdote2 about nuclear3 power.</description></item><item><title>Minimum Best Practices For Data Scientists Part 4</title><link>https://paul-brenner.github.io/posts/data_scientist_part4/</link><pubDate>Tue, 04 Jan 2022 14:21:49 +0800</pubDate><guid>https://paul-brenner.github.io/posts/data_scientist_part4/</guid><description>Minimum Best Practices For Data Scientists This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
-This is just the fourth section on this topic.</description></item><item><title>Minimum Best Practices For Data Scientists Part 3</title><link>https://paul-brenner.github.io/posts/data_scientist_part3/</link><pubDate>Mon, 03 Jan 2022 14:21:49 +0800</pubDate><guid>https://paul-brenner.github.io/posts/data_scientist_part3/</guid><description>Minimum Best Practices For Data Scientists This is part 3.3 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
-This is just this third section on this topic.</description></item><item><title>Minimum Best Practices For Data Scientists Part 2</title><link>https://paul-brenner.github.io/posts/data_scientist_part2/</link><pubDate>Sun, 02 Jan 2022 14:21:49 +0800</pubDate><guid>https://paul-brenner.github.io/posts/data_scientist_part2/</guid><description>Minimum Best Practices For Data Scientists This is part 3.2 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
-This is just the second section on this topic.</description></item><item><title>What I actually look for in a Data Scientist</title><link>https://paul-brenner.github.io/posts/data_scientist_part1/</link><pubDate>Sat, 01 Jan 2022 14:21:49 +0800</pubDate><guid>https://paul-brenner.github.io/posts/data_scientist_part1/</guid><description>What I actually look for in a Data Scientist This is part 3.1 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
-This is just the first section on this topic.</description></item><item><title>Minimum Best Practices For Data Scientists Full</title><link>https://paul-brenner.github.io/posts/data_scientist_full/</link><pubDate>Wed, 29 Dec 2021 14:21:49 +0800</pubDate><guid>https://paul-brenner.github.io/posts/data_scientist_full/</guid><description>Minimum Best Practices For Data Scientists This is the full part 3 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link. Elsewhere on the blog I&amp;rsquo;ve also split this into multiple smaller pages.</description></item><item><title>About</title><link>https://paul-brenner.github.io/about/</link><pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate><guid>https://paul-brenner.github.io/about/</guid><description>Hi, I&amp;rsquo;m Paul Well you have found my little website for&amp;hellip; reasons? Hopefully good reasons and not just like identity theft or doxing reasons. The point of this site is so that I can link to things that I have written and so that anyone who becomes aware that I exist and wants to know &amp;ldquo;what is the deal with this Paul that I&amp;rsquo;ve just come across&amp;rdquo; can reasonably answer that question.</description></item><item><title>Other writing</title><link>https://paul-brenner.github.io/other/</link><pubDate>Sat, 25 Dec 2021 14:21:49 +0800</pubDate><guid>https://paul-brenner.github.io/other/</guid><description>Other posts I&amp;rsquo;ve written Here are a few links to content I&amp;rsquo;ve written and published elsewhere. Maybe someday I&amp;rsquo;ll self host these posts so that they aren&amp;rsquo;t at risk of disappearing? But maybe they are happy where they are.
+I’m going to share with you a fun1 anecdote2 about nuclear3 power.</description>
+    </item>
+    
+    <item>
+      <title>Minimum Best Practices For Data Scientists Part 4</title>
+      <link>https://paul-brenner.github.io/posts/data_scientist_part4/</link>
+      <pubDate>Tue, 04 Jan 2022 14:21:49 +0800</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/data_scientist_part4/</guid>
+      <description>Minimum Best Practices For Data Scientists    This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
+This is just the fourth section on this topic.</description>
+    </item>
+    
+    <item>
+      <title>Minimum Best Practices For Data Scientists Part 3</title>
+      <link>https://paul-brenner.github.io/posts/data_scientist_part3/</link>
+      <pubDate>Mon, 03 Jan 2022 14:21:49 +0800</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/data_scientist_part3/</guid>
+      <description>Minimum Best Practices For Data Scientists    This is part 3.3 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
+This is just this third section on this topic.</description>
+    </item>
+    
+    <item>
+      <title>Minimum Best Practices For Data Scientists Part 2</title>
+      <link>https://paul-brenner.github.io/posts/data_scientist_part2/</link>
+      <pubDate>Sun, 02 Jan 2022 14:21:49 +0800</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/data_scientist_part2/</guid>
+      <description>Minimum Best Practices For Data Scientists    This is part 3.2 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
+This is just the second section on this topic.</description>
+    </item>
+    
+    <item>
+      <title>What I actually look for in a Data Scientist</title>
+      <link>https://paul-brenner.github.io/posts/data_scientist_part1/</link>
+      <pubDate>Sat, 01 Jan 2022 14:21:49 +0800</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/data_scientist_part1/</guid>
+      <description>What I actually look for in a Data Scientist    This is part 3.1 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
+This is just the first section on this topic.</description>
+    </item>
+    
+    <item>
+      <title>Minimum Best Practices For Data Scientists Full</title>
+      <link>https://paul-brenner.github.io/posts/data_scientist_full/</link>
+      <pubDate>Wed, 29 Dec 2021 14:21:49 +0800</pubDate>
+      
+      <guid>https://paul-brenner.github.io/posts/data_scientist_full/</guid>
+      <description>Minimum Best Practices For Data Scientists    This is the full part 3 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link. Elsewhere on the blog I&amp;rsquo;ve also split this into multiple smaller pages.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://paul-brenner.github.io/about/</link>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://paul-brenner.github.io/about/</guid>
+      <description>Hi, I&amp;rsquo;m Paul    Well you have found my little website for&amp;hellip; reasons? Hopefully good reasons and not just like identity theft or doxing reasons. The point of this site is so that I can link to things that I have written and so that anyone who becomes aware that I exist and wants to know &amp;ldquo;what is the deal with this Paul that I&amp;rsquo;ve just come across&amp;rdquo; can reasonably answer that question.</description>
+    </item>
+    
+    <item>
+      <title>Other writing</title>
+      <link>https://paul-brenner.github.io/other/</link>
+      <pubDate>Sat, 25 Dec 2021 14:21:49 +0800</pubDate>
+      
+      <guid>https://paul-brenner.github.io/other/</guid>
+      <description>Other posts I&amp;rsquo;ve written    Here are a few links to content I&amp;rsquo;ve written and published elsewhere. Maybe someday I&amp;rsquo;ll self host these posts so that they aren&amp;rsquo;t at risk of disappearing? But maybe they are happy where they are.
 Guidance for anyone looking to become a junior data scientist
-I&amp;rsquo;m sure there are plenty of opinions that could be tossed at this post. &amp;ldquo;You really have a title with junior in it?</description></item></channel></rss>
+I&amp;rsquo;m sure there are plenty of opinions that could be tossed at this post. &amp;ldquo;You really have a title with junior in it?</description>
+    </item>
+    
+  </channel>
+</rss>

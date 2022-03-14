@@ -1,166 +1,24 @@
-<!doctype html><html lang=en>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=content-language content="en">
-<meta name=color-scheme content="light dark">
-<meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' https://ibwp.goatcounter.com/count; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://gc.zgo.at; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com www.googletagmanager.com goatcounter.com;">
-<meta name=author content="Paul Brenner">
-<meta name=description content="Minimum Best Practices For Data Scientists    This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
-This is just the fourth section on this topic.">
-<meta name=keywords content="blog,developer,data,science,personal">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Minimum Best Practices For Data Scientists Part 4">
-<meta name=twitter:description content="Minimum Best Practices For Data Scientists    This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
-This is just the fourth section on this topic.">
-<meta property="og:title" content="Minimum Best Practices For Data Scientists Part 4">
-<meta property="og:description" content="Minimum Best Practices For Data Scientists    This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
-This is just the fourth section on this topic.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://paul-brenner.github.io/posts/data_scientist_part4/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2022-01-04T14:21:49+08:00">
-<meta property="article:modified_time" content="2022-01-04T14:21:49+08:00">
-<meta property="og:see_also" content="https://paul-brenner.github.io/posts/data_scientist_part3/"><meta property="og:see_also" content="https://paul-brenner.github.io/posts/data_scientist_part2/"><meta property="og:see_also" content="https://paul-brenner.github.io/posts/data_scientist_part1/">
-<title>
-Minimum Best Practices For Data Scientists Part 4 · Paul's Little Website
-</title>
-<link rel=canonical href=https://paul-brenner.github.io/posts/data_scientist_part4/>
-<link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
-<link rel=stylesheet href=/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css integrity="sha256-2f3b/+byfmmYXcX+BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin=anonymous media=screen>
-<link rel=stylesheet href=/css/coder-dark.min.d4d019959848c95c50910af395113fd828586cf7ca9c71ea13906f93a2d0df2a.css integrity="sha256-1NAZlZhIyVxQkQrzlRE/2ChYbPfKnHHqE5Bvk6LQ3yo=" crossorigin=anonymous media=screen>
-<link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32>
-<link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16>
-<link rel=apple-touch-icon href=/images/apple-touch-icon.png>
-<link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.92.2">
-<link rel=stylesheet href=/css/littlefoot.css>
-</head>
-<body class="preload-transitions colorscheme-auto">
-<div class=float-container>
-<a id=dark-mode-toggle class=colorscheme-toggle>
-<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
-</a>
-</div>
-<main class=wrapper>
-<nav class=navigation>
-<section class=container>
-<a class=navigation-title href=/>
-Paul's Little Website
-</a>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="en"><meta name=color-scheme content="light dark"><meta http-equiv=content-security-policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; form-action 'self'; frame-src 'self'; img-src 'self' https://ibwp.goatcounter.com/count; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://cdn.jsdelivr.net/; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://gc.zgo.at; prefetch-src 'self'; connect-src 'self' https://www.google-analytics.com www.googletagmanager.com goatcounter.com;"><meta name=author content="Paul Brenner"><meta name=description content="Minimum Best Practices For Data Scientists    This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
+This is just the fourth section on this topic."><meta name=keywords content="blog,developer,data,science,personal"><meta name=twitter:card content="summary"><meta name=twitter:title content="Minimum Best Practices For Data Scientists Part 4"><meta name=twitter:description content="Minimum Best Practices For Data Scientists    This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
+This is just the fourth section on this topic."><meta property="og:title" content="Minimum Best Practices For Data Scientists Part 4"><meta property="og:description" content="Minimum Best Practices For Data Scientists    This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look here. To learn about moving up from Data Scientist to Senior Data scientist you want this link.
+This is just the fourth section on this topic."><meta property="og:type" content="article"><meta property="og:url" content="https://paul-brenner.github.io/posts/data_scientist_part4/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2022-01-04T14:21:49+08:00"><meta property="article:modified_time" content="2022-01-04T14:21:49+08:00"><meta property="og:see_also" content="https://paul-brenner.github.io/posts/data_scientist_part3/"><meta property="og:see_also" content="https://paul-brenner.github.io/posts/data_scientist_part2/"><meta property="og:see_also" content="https://paul-brenner.github.io/posts/data_scientist_part1/"><title>Minimum Best Practices For Data Scientists Part 4 · Paul's Little Website</title><link rel=canonical href=https://paul-brenner.github.io/posts/data_scientist_part4/><link rel=preload href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.d9fddbffe6f27e69985dc5fe0471cdb0e57fbf4775714bc3d847accb08f4a1f6.css integrity="sha256-2f3b/+byfmmYXcX+BHHNsOV/v0d1cUvD2Eesywj0ofY=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.d4d019959848c95c50910af395113fd828586cf7ca9c71ea13906f93a2d0df2a.css integrity="sha256-1NAZlZhIyVxQkQrzlRE/2ChYbPfKnHHqE5Bvk6LQ3yo=" crossorigin=anonymous media=screen><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><meta name=generator content="Hugo 0.94.2"><link rel=stylesheet href=/css/littlefoot.css></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Paul's Little Website</a>
 <input type=checkbox id=menu-toggle>
-<label class="menu-button float-right" for=menu-toggle>
-<i class="fa fa-bars fa-fw" aria-hidden=true></i>
-</label>
-<ul class=navigation-list>
-<li class=navigation-item>
-<a class=navigation-link href=/about/>About</a>
-</li>
-<li class=navigation-item>
-<a class=navigation-link href=/posts/>Blog</a>
-</li>
-<li class=navigation-item>
-<a class=navigation-link href=/other/>Other Work</a>
-</li>
-</ul>
-</section>
-</nav>
-<div class=content>
-<section class="container post">
-<article>
-<header>
-<div class=post-title>
-<h1 class=title>
-<a class=title-link href=https://paul-brenner.github.io/posts/data_scientist_part4/>
-Minimum Best Practices For Data Scientists Part 4
-</a>
-</h1>
-</div>
-<div class=post-meta>
-<div class=date>
-<span class=posted-on>
-<i class="fa fa-calendar" aria-hidden=true></i>
-<time datetime=2022-01-04T14:21:49+08:00>
-January 4, 2022
-</time>
-</span>
-<span class=reading-time>
-<i class="fa fa-clock-o" aria-hidden=true></i>
-4-minute read
-</span>
-</div>
-</div>
-</header>
-<div>
-<h1 id=minimum-best-practices-for-data-scientists>
-Minimum Best Practices For Data Scientists
-<a class=heading-link href=#minimum-best-practices-for-data-scientists>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h1>
-<p>This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look <a href=https://medium.com/@paulbrenner_1107/it-is-time-to-share-some-guidance-for-analysts-that-want-to-become-junior-data-scientist-2fc50f8331b>here</a>. To learn about moving up from Data Scientist to Senior Data scientist you want this <a href=https://medium.com/@paulbrenner_1107/data-scientist-no-senior-data-scientist-lets-talk-about-how-that-happens-87f12c06f573>link</a>.</p>
-<p>This is just the fourth section on this topic. Elsewhere on the blog I consolidated everything into <a href=https://paul-brenner.github.io/posts/data_scientist_full/>one long post</a> but it is pretty intimidating. Here are links to each section:
+<label class="menu-button float-right" for=menu-toggle><i class="fa fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About</a></li><li class=navigation-item><a class=navigation-link href=/posts/>Blog</a></li><li class=navigation-item><a class=navigation-link href=/other/>Other Work</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title><a class=title-link href=https://paul-brenner.github.io/posts/data_scientist_part4/>Minimum Best Practices For Data Scientists Part 4</a></h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fa fa-calendar" aria-hidden=true></i>
+<time datetime=2022-01-04T14:21:49+08:00>January 4, 2022</time></span>
+<span class=reading-time><i class="fa fa-clock-o" aria-hidden=true></i>
+4-minute read</span></div></div></header><div><h1 id=minimum-best-practices-for-data-scientists>Minimum Best Practices For Data Scientists
+<a class=heading-link href=#minimum-best-practices-for-data-scientists><i class="fa fa-link" aria-hidden=true></i></a></h1><p>This is part 3.4 in a series to give some guidance on milestones/goals/expectations or really just “best practices” at various levels in the data science career. For guidance on getting to the pre-Data Scientist level look <a href=https://medium.com/@paulbrenner_1107/it-is-time-to-share-some-guidance-for-analysts-that-want-to-become-junior-data-scientist-2fc50f8331b>here</a>. To learn about moving up from Data Scientist to Senior Data scientist you want this <a href=https://medium.com/@paulbrenner_1107/data-scientist-no-senior-data-scientist-lets-talk-about-how-that-happens-87f12c06f573>link</a>.</p><p>This is just the fourth section on this topic. Elsewhere on the blog I consolidated everything into <a href=https://paul-brenner.github.io/posts/data_scientist_full/>one long post</a> but it is pretty intimidating. Here are links to each section:
 <a href=https://paul-brenner.github.io/posts/data_scientist_part1/>One</a>
 <a href=https://paul-brenner.github.io/posts/data_scientist_part2/>Two</a>
 <a href=https://paul-brenner.github.io/posts/data_scientist_part3/>Three</a>
-<a href=https://paul-brenner.github.io/posts/data_scientist_part4/>Four</a></p>
-<h2 id=data-scientist-pay-tangent>
-Data Scientist Pay Tangent
-<a class=heading-link href=#data-scientist-pay-tangent>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h2>
-<p><em>This is just a tangent. Do what you will with it. But I&rsquo;m going to ask you to do something. If you are reading these points and getting angry, make sure to read the note at the bottom and then think about whether that changes how you read everything.</em></p>
-<ol>
-<li>Don’t think your compensation is high? You may have already failed this one. Think about it again from the perspective of the CFO. Or imagine you had founded the company and were responsible for making sure everyone gets a paycheck every pay cycle.</li>
-<li>Thought about that and still think you are underpaid? Ok, fine, that was cost-based pricing and sure that may not be appropriate here. How about value-based pricing: Can you put a dollar amount on the value of your work? An exact number is probably pretty hard if you don’t bill hourly, but do you have any idea how your work for the past year translates to value for the company?</li>
-<li>Next up, how much are other people with your skill set getting paid, whether at your company or other comparable companies? Is it more? Are those people doing jobs you would actually want to do or does your company have some sort of perks beyond just money that you value (more interesting work? You don’t hate your life?). What I’m saying is be sure to also consider “total comp” and not just salary.</li>
-<li>Ok, if you’ve made it this far, and you are confident that your company has absolutely no problem making payroll, and you know the value your work provides (like money value, not just it’s neat value) is a big multiple of your pay, and other people with the same skills make more… do you see the problem yet?</li>
-<li>What I was getting at in 4 is that if you have all that information and think you are underpaid you should either have plenty to make a case for a raise, be job hunting, or appreciate what it is about your job that keeps you there even though you don’t like the pay</li>
-</ol>
-<p>Note: I&rsquo;ll be explicit here. The point of this is not to convince you that you are paid too much. No, it also isn&rsquo;t to convince you that you are paid &ldquo;enough&rdquo;. The point is to better understand where your pay comes from, how it may be determined, and use that to make a case to get paid more and/or do better at your job/grow your career. If you have decided you are going to sell your labor and time to a company, then you should do what you can to maximize your compensation. On the one hand, it is more complicated than this because there are other very important factors like growth, liking your job, and short-term vs long-term compensation. On the other, once you find a job that checks those other boxes, YOU are absolutely the one person with that greatest motivation to maximize your compensation.</p>
-<p>You can hate the idea of putting yourself in the CFO&rsquo;s shoes and trying to see yourself as a &ldquo;resource&rdquo; with costs (your compensation is just one) and benefits (e.g.,the value of your work, the value of not having to find someone to replace you if you leave). But it is possible that you are leaving money on the table by not seeing it for his/her side and trying to find ways to make it easier for the company to decide &ldquo;wow you really should be paid more!&rdquo; Ideally this exercise could drive your career growth too. If you realize there is something very valuable to the company that you could do more of to help that equation, then perhaps it is time to figure out how you can do more of that thing.</p>
-<p>So if you read the above and hated it because you thought I was trying to convince you to be happy with less pay, that was not my intention, maybe try reading again assuming the opposite. If you read the above and hated it because I&rsquo;m advocating for people to better understand their value to their employer and use that to negotiate compensation and set growth goals, then you&rsquo;ve got me there and I&rsquo;d welcome more feedback.</p>
-</div>
-<footer>
-<section class=see-also>
-<h3 id=see-also-in-minimum-best-practices-for-data-scientists>
-See also in Minimum Best Practices For Data Scientists
-<a class=heading-link href=#see-also-in-minimum-best-practices-for-data-scientists>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h3>
-<nav>
-<ul>
-<li>
-<a href=/posts/data_scientist_part3/>Minimum Best Practices For Data Scientists Part 3</a>
-</li>
-<li>
-<a href=/posts/data_scientist_part2/>Minimum Best Practices For Data Scientists Part 2</a>
-</li>
-<li>
-<a href=/posts/data_scientist_part1/>What I actually look for in a Data Scientist</a>
-</li>
-</ul>
-</nav>
-</section>
-</footer>
-</article>
-</section>
-</div>
-<footer class=footer>
-<section class=container>
-©
+<a href=https://paul-brenner.github.io/posts/data_scientist_part4/>Four</a></p><h2 id=data-scientist-pay-tangent>Data Scientist Pay Tangent
+<a class=heading-link href=#data-scientist-pay-tangent><i class="fa fa-link" aria-hidden=true></i></a></h2><p><em>This is just a tangent. Do what you will with it. But I&rsquo;m going to ask you to do something. If you are reading these points and getting angry, make sure to read the note at the bottom and then think about whether that changes how you read everything.</em></p><ol><li>Don’t think your compensation is high? You may have already failed this one. Think about it again from the perspective of the CFO. Or imagine you had founded the company and were responsible for making sure everyone gets a paycheck every pay cycle.</li><li>Thought about that and still think you are underpaid? Ok, fine, that was cost-based pricing and sure that may not be appropriate here. How about value-based pricing: Can you put a dollar amount on the value of your work? An exact number is probably pretty hard if you don’t bill hourly, but do you have any idea how your work for the past year translates to value for the company?</li><li>Next up, how much are other people with your skill set getting paid, whether at your company or other comparable companies? Is it more? Are those people doing jobs you would actually want to do or does your company have some sort of perks beyond just money that you value (more interesting work? You don’t hate your life?). What I’m saying is be sure to also consider “total comp” and not just salary.</li><li>Ok, if you’ve made it this far, and you are confident that your company has absolutely no problem making payroll, and you know the value your work provides (like money value, not just it’s neat value) is a big multiple of your pay, and other people with the same skills make more… do you see the problem yet?</li><li>What I was getting at in 4 is that if you have all that information and think you are underpaid you should either have plenty to make a case for a raise, be job hunting, or appreciate what it is about your job that keeps you there even though you don’t like the pay</li></ol><p>Note: I&rsquo;ll be explicit here. The point of this is not to convince you that you are paid too much. No, it also isn&rsquo;t to convince you that you are paid &ldquo;enough&rdquo;. The point is to better understand where your pay comes from, how it may be determined, and use that to make a case to get paid more and/or do better at your job/grow your career. If you have decided you are going to sell your labor and time to a company, then you should do what you can to maximize your compensation. On the one hand, it is more complicated than this because there are other very important factors like growth, liking your job, and short-term vs long-term compensation. On the other, once you find a job that checks those other boxes, YOU are absolutely the one person with that greatest motivation to maximize your compensation.</p><p>You can hate the idea of putting yourself in the CFO&rsquo;s shoes and trying to see yourself as a &ldquo;resource&rdquo; with costs (your compensation is just one) and benefits (e.g.,the value of your work, the value of not having to find someone to replace you if you leave). But it is possible that you are leaving money on the table by not seeing it for his/her side and trying to find ways to make it easier for the company to decide &ldquo;wow you really should be paid more!&rdquo; Ideally this exercise could drive your career growth too. If you realize there is something very valuable to the company that you could do more of to help that equation, then perhaps it is time to figure out how you can do more of that thing.</p><p>So if you read the above and hated it because you thought I was trying to convince you to be happy with less pay, that was not my intention, maybe try reading again assuming the opposite. If you read the above and hated it because I&rsquo;m advocating for people to better understand their value to their employer and use that to negotiate compensation and set growth goals, then you&rsquo;ve got me there and I&rsquo;d welcome more feedback.</p></div><footer><section class=see-also><h3 id=see-also-in-minimum-best-practices-for-data-scientists>See also in Minimum Best Practices For Data Scientists
+<a class=heading-link href=#see-also-in-minimum-best-practices-for-data-scientists><i class="fa fa-link" aria-hidden=true></i></a></h3><nav><ul><li><a href=/posts/data_scientist_part3/>Minimum Best Practices For Data Scientists Part 3</a></li><li><a href=/posts/data_scientist_part2/>Minimum Best Practices For Data Scientists Part 2</a></li><li><a href=/posts/data_scientist_part1/>What I actually look for in a Data Scientist</a></li></ul></nav></section></footer></article></section></div><footer class=footer><section class=container>©
 2016 -
 2022
 Paul Brenner
 ·
-Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.
-</section>
-</footer>
-</main>
-<script src=/js/coder.min.39a51230dce2ac866c049b52573e38bf60666af4bc63c1bdf203b9b2d95b1cd6.js integrity="sha256-OaUSMNzirIZsBJtSVz44v2BmavS8Y8G98gO5stlbHNY="></script>
+Powered by <a href=https://gohugo.io/>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/>Coder</a>.</section></footer></main><script src=/js/coder.min.8fb86376a16e684af472a329aef502dbebcfab65ce264e9750d144912947c602.js integrity="sha256-j7hjdqFuaEr0cqMprvUC2+vPq2XOJk6XUNFEkSlHxgI="></script>
 <script data-goatcounter=https://ibwp.goatcounter.com/count async src=//gc.zgo.at/count.js></script>
 <script src=/js/littlefoot.js type=application/javascript></script>
-<script type=application/javascript>littlefoot.default()</script>
-</body>
-</html>
+<script type=application/javascript>littlefoot.default()</script></body></html>
